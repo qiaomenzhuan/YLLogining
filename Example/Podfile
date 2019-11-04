@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'YLLogining_Example' do
   pod 'YLLogining', :path => '../'
+  pod 'YLNetWorking', :path => '../../YLNetWorking'
 
   target 'YLLogining_Tests' do
     inherit! :search_paths

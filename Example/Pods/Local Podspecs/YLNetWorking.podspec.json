@@ -1,0 +1,22 @@
+{
+  "name": "YLNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of YLNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yanglei/YLNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanglei": "18500123278@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yanglei/YLNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLNetWorking/Classes/**/*"
+}

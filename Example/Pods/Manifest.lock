@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YLLogining (0.1.0):
+    - YLNetWorking
+  - YLNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YLLogining (from `../`)
+  - YLNetWorking (from `../../YLNetWorking`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YLLogining:
+    :path: "../"
+  YLNetWorking:
+    :path: "../../YLNetWorking"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YLLogining: 349b82bb12b6b9a1b416c670aa0e948252eff4f3
+  YLNetWorking: 32b358c24b86edbecc9b5573d643328a7c6cf2c7
+
+PODFILE CHECKSUM: deae5b122e40b4b58817571396924788298b2b17
+
+COCOAPODS: 1.6.2

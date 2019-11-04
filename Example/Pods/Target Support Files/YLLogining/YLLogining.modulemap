@@ -1,0 +1,6 @@
+framework module YLLogining {
+  umbrella header "YLLogining-umbrella.h"
+
+  export *
+  module * { export * }
+}

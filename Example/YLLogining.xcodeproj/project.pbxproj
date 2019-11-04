@@ -61,12 +61,12 @@
 		7774EA5EA55465CF3F31C8A5 /* Pods_YLLogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLLogining_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89811D3C880CB0F30F2A1ADF /* Pods-YLLogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLLogining_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLLogining_Tests/Pods-YLLogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B12CBA1F869272BA931BA447 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B12CBA1F869272BA931BA447 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BEFBA6D889838B93162E9A9E /* Pods_YLLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLLogining_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC23496194F76CF72DBA000 /* Pods-YLLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLLogining_Example.release.xcconfig"; path = "Target Support Files/Pods-YLLogining_Example/Pods-YLLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D16E24F9F9A30E32CA5E3E5B /* Pods-YLLogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLLogining_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLLogining_Tests/Pods-YLLogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF23EAD72E98A8B67DC6E2CC /* YLLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLLogining.podspec; path = ../YLLogining.podspec; sourceTree = "<group>"; };
-		FF9ABD39A2E220299924DE63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF23EAD72E98A8B67DC6E2CC /* YLLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLLogining.podspec; path = ../YLLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF9ABD39A2E220299924DE63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D16E24F9F9A30E32CA5E3E5B /* Pods-YLLogining_Tests.debug.xcconfig */,
 				89811D3C880CB0F30F2A1ADF /* Pods-YLLogining_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -350,12 +350,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YLLogining_Example/Pods-YLLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YLLogining/YLLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/YLNetWorking/YLNetWorking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLNetWorking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
